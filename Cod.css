@@ -17,8 +17,9 @@ body
 
 .Parte
 {
-    padding-left: 120px;
+    padding-left: 10px;
     max-width: 1200px;
+    padding-right: 10px;
 }
 
 .Nume
@@ -164,21 +165,6 @@ body
     background-color: rgb(156, 43, 118);
 }
 
-@media (min-width: 850px)
-{
-    .Prima_fata{
-        margin: 0;
-    }
-
-    .Nume_Principal
-    {
-        flex-basis: auto;
-        text-align: left;
-        margin-right: auto;
-        padding-left: 50px;
-    }
-}
-
 .Info
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -235,6 +221,7 @@ body
     padding-top: 100px;
     font-family:  Arial, Helvetica, sans-serif;
     color: white;
+    font-size: 20px;
 }
 
 .Informatii_Personale
@@ -281,4 +268,29 @@ body
 .Subsol
 {
     background-color: rgb(27, 19, 32);
+}
+
+@media (min-width: 850px)
+{
+    .Prima_fata{
+        margin: 0;
+    }
+
+    .Nume_Principal
+    {
+        flex-basis: auto;
+        text-align: left;
+        margin-right: auto;
+        padding-left: 50px;
+    }
+
+    .Parte
+    {
+        padding-left: 120px;
+    }
+
+    .Subsol_Nume
+    {
+        font-size: 30px;
+    }
 }
