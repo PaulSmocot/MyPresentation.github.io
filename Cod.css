@@ -1,0 +1,284 @@
+@font-face {
+    font-family: MyFont1;
+    src: url(HeyKans.ttf);
+}
+
+h1, h2, h3
+{
+    margin: 0;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(27, 19, 32);
+}
+
+.Parte
+{
+    padding-left: 120px;
+    max-width: 1200px;
+}
+
+.Nume
+{
+    color: rgb(125, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+
+.Scris
+{
+    color: white;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Date_personale
+{
+    font-size: 50px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Prima_fata
+{
+    border-bottom: 3px solid rgb(177, 92, 247);
+    padding-bottom: 240px;
+    background-color: rgb(27, 19, 32);
+}
+
+.Nume_Principal
+{
+    
+    font-size: 55px;
+    font-family:  MyFont1;
+    color: white;
+    font-weight: lighter;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.Proiect_Principal
+{
+    font-size: 40px;
+    font-family:  MyFont1;
+    color: white;
+    font-weight: lighter;
+}
+
+.About_Principal
+{
+    font-size: 40px;
+    font-family:  MyFont1;
+    color: white;
+    font-weight: lighter;
+}
+
+.Contact_Principal
+{
+    font-size: 40px;
+    font-family:  MyFont1;
+    color: white;
+    font-weight: lighter;
+}
+
+.GitHub_Principal
+{
+    font-size: 30px;
+    font-family:  MyFont1;
+    color: white;
+    font-weight: lighter;
+    
+}
+
+
+.In_Principal
+{
+    font-size: 30px;
+    font-family:  MyFont1;
+    color: white;
+    font-weight: lighter;
+    position: relative;
+    right: 30px;
+}
+
+.Resume_Principal
+{
+    position: relative;
+    right: 30px;
+    font-size: 30px;
+    font-family:  MyFont1;
+    color: white;
+    font-weight: lighter;
+    border-radius: 10px;
+    background-color: rgb(126, 21, 91);
+    padding: 0.5rem;
+}
+
+.Header
+{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    flex-flow: row wrap;
+    gap: 2rem;
+    padding-bottom: 130px;
+}
+
+.Header a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.ho:hover
+{
+    color: rgb(156, 43, 118);
+}
+
+.Header [class*="fa-brands"]
+{
+    font-size: 50px;
+    color: aqua;
+}
+
+.Header [class*="fa-solid"]
+{
+    font-size: 30px;
+    position: relative;
+    bottom: 5px;
+}
+
+.Header [class*="fa-solid"]:hover,
+.Header [class*="fa-brands"]:hover
+{
+    color: rgb(156, 43, 118);
+}
+
+.Resume_Principal:hover
+{
+    color: white;
+    background-color: rgb(156, 43, 118);
+}
+
+@media (min-width: 850px)
+{
+    .Prima_fata{
+        margin: 0;
+    }
+
+    .Nume_Principal
+    {
+        flex-basis: auto;
+        text-align: left;
+        margin-right: auto;
+        padding-left: 50px;
+    }
+}
+
+.Info
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.Contact
+{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+.Contact_Me
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 3px solid rgba(177, 92, 247, 0.986);
+    background-color: rgb(61, 10, 57);
+
+}
+
+.Email
+{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 25px;
+    
+}
+
+.Contact_Me a
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(126, 21, 91);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Contact_Me a:hover
+{
+    color: white;
+    background-color: rgb(148, 47, 108);
+}
+
+.Subsol_Nume
+{
+    text-align: center;
+    padding-top: 100px;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.Informatii_Personale
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.Informatii_Personale [class*="fa-brands"]
+{
+    font-size: 50px;
+    color: rgb(126, 21, 91);
+}
+
+.Informatii_Personale [class*="fa-sharp"]
+{
+    font-size: 50px;
+    color: rgb(126, 21, 91);
+}
+
+.Informatii_Personale [class*="fa-brands"]:hover
+{
+   color: rgb(148, 47, 108);
+}
+
+.Informatii_Personale [class*="fa-sharp"]:hover
+{
+    color: rgb(148, 47, 108);
+}
+
+.Drepturi
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+
+}
+
+.Subsol
+{
+    background-color: rgb(27, 19, 32);
+}
