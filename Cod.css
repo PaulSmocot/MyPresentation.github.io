@@ -295,7 +295,7 @@ body
     color: white;
     font-family:Arial, Helvetica, sans-serif ;
     padding-top: 100px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .Proiecte [class*="2"]
@@ -437,4 +437,21 @@ body
     {
         padding-bottom: 50px;
     }
+
+    .Text
+    {
+        order: 2;
+        text-align: right;
+    }
+
+    .Proiecte
+    {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .Descriere
+    {
+        text-align: center;
+    }
+
 }
