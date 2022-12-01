@@ -3,7 +3,7 @@
     src: url(HeyKans.ttf);
 }
 
-h1, h2, h3
+h1, h2, h3 
 {
     margin: 0;
 }
@@ -274,6 +274,123 @@ body
     background-color: rgb(27, 19, 32);
 }
 
+.Proiecte
+{
+    background-color: rgb(18, 49, 90);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Proiecte [class*="Imagine"]
+{
+    height: 250px;
+    border-left: 1px solid rgb(125, 255, 255);
+    border-top: 1px solid rgb(125, 255, 255);
+    border-radius: 30px;
+    padding: 6px;
+    width: 90%;
+}
+
+.Proiecte [class*="1"]
+{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.Proiecte [class*="2"]
+{
+    color: white;
+    padding-top: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 25px;
+    margin: 0;
+}
+
+.Proiecte [class*="3"]
+{
+    color:rgb(125, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 5px;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.Proiecte [class*="4"]
+{
+    padding-top: 10px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ClickMe
+{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.ho7:hover
+{
+    background-color: rgb(168, 36, 126);
+}
+
+.ho7
+{
+    background-color: rgb(126, 21, 91);
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.Descriere
+{
+    color: white;
+    margin: 0;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.Descriere_Principala
+{
+    background-color: rgb(27, 19, 32);
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.Tehnologi
+{
+    padding-left: 30px;
+    display: flex;
+    gap: 30px;
+    padding-top: 3px;
+}
+
+.Tehnologii
+{
+    margin: 0;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Test
+{
+    padding-left: 30px;
+    padding-bottom: 100px;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+
 @media (min-width: 850px)
 {
     .Prima_fata{
@@ -296,5 +413,24 @@ body
     .Subsol_Nume
     {
         font-size: 30px;
+    }
+}
+
+@media (min-width: 550px)
+{
+    .Combinatie
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Tehnologi
+    {
+        justify-content: center;
+    }
+
+    .Proiecte [class*="4"]
+    {
+        text-align: center;
     }
 }
