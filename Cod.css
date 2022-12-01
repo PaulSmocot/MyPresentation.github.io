@@ -283,7 +283,6 @@ body
 
 .Proiecte [class*="Imagine"]
 {
-    height: 250px;
     border-left: 1px solid rgb(125, 255, 255);
     border-top: 1px solid rgb(125, 255, 255);
     border-radius: 30px;
@@ -432,5 +431,10 @@ body
     .Proiecte [class*="4"]
     {
         text-align: center;
+    }
+
+    .Tehnologi
+    {
+        padding-bottom: 50px;
     }
 }
